@@ -18,3 +18,13 @@ function addMuffin() {
 function addBird() {
   allItems.innerHTML += `<p class="item">🐦</p>`;
 }
+
+var itemParent = document.querySelector(".items");
+
+itemParent.addEventListener('click', removeEmoji);
+
+function removeEmoji() {
+if(event.target.classList.contains("item")) {
+  event.target.style.display = "none";
+ }
+}
