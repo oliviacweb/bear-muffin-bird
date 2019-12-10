@@ -47,11 +47,18 @@ main {
   height: 70vh;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bear-response {
+  /*display: block;*/
+  /* align-items: center; */
 }
 
 .item {
   font-size: 900%;
-  margin: 20px;
+  margin: 5px 20px;
 }
 
 h3 {
